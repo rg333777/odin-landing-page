@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategray;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+}
