@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: darkslateblue;
+    background-color: #1f2937;
     color: white;
 }
 
@@ -22,4 +22,74 @@ body {
     display: flex;
     list-style: none;
     gap: 36px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 960px;
+    padding: 16px;
+}
+
+.hero-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-left-content {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: grey;
+    align-self: stretch;
+}
+
+.hero-right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 12px;
+    width: 120px;
+    padding: 8px;
 }
