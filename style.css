@@ -104,5 +104,32 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    margin-top: 32px;
+    margin: 32px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 8px;
+}
+
+.card-image {
+    height: 150px;
+    border-width: medium;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882f6;
+    
+}
+
+.card-text {
+    text-align: center;
 }
