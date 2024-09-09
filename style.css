@@ -160,3 +160,39 @@ button {
     font-weight: bold;
     padding-right: 64px;
 }
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 64px;
+}
+
+.call-container {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    padding: 24px;
+    color: white;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 225px;
+}
+
+.call-line1 {
+    font-weight: bold;
+}
+
+.sign-up {
+    border-color: white;
+}
+
+.call-right {
+    flex: 1;
+}
