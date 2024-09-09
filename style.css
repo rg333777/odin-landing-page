@@ -1,15 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'roboto', sans-serif;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    background-color: darkslategray;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header-links {
     display: flex;
     list-style: none;
+    gap: 24px;
 }
